@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,    
+    "checkJs": true,    
+    "declaration": true,
+    "esModuleInterop": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "strict": true,   
+    "noImplicitAny": true,   
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,  
+    "alwaysStrict": true,    
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["declarations.d.ts", "index.js"],
+  "exclude": ["node_modules", "dist"]
+}
